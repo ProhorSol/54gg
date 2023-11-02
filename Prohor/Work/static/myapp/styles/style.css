@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+aside{
+    background-color: #FEFFC7;
+    width: 179px;
+    height: 100vh;
+    float: left;
+}
+
+.main h1{
+    background-color: #FFF06A;
+    width: 100%;
+    height: 113px;
+    font-size: 32px;
+    font-weight: 300;
+    padding: 28px 209px;
+}
+
+.Name{
+    display: flex;
+    padding: 28px 0 67px 23px;
+}
+
+.Name img{
+    width: 38px;
+    height: 38px;
+}
+
+.Name p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+aside li{
+    list-style-type: none;
+    padding-bottom: 21px;
+    padding-left: 24px;
+}
+
+aside li:nth-child(3){
+    padding-top: 137px;
+}
+
+aside li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+aside li a:hover{
+    text-decoration: underline;
+}
+
+
+.text, form, table{
+    margin-top: 50px;
+    margin-left: 225px;
+}
+
+.pvtr{
+    margin-left: 20px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table th{
+    font-size: 16px;
+    padding: 15px;
+    border-right: 1px solid #DCDCDC;
+    border-left: 1px solid #DCDCDC;
+    font-weight: 300;
+}
+
+table td{
+    font-size: 14px;
+    padding: 22px;
+    border-left: 1px solid #DCDCDC;
+}
+
+table td:nth-child(5){
+    border-right: 1px solid #DCDCDC;
+}
+
+table tr:nth-child(1){
+    background-color: #F2F2F2;
+    border: 1px solid #DCDCDC;
+}
+
+table tr:nth-child(4){
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.save {
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFF06A;
+    width: 133px;
+    height: 42px;
+    margin: 26px 520px 46px 38px;
+}
+
+h3{
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 38px;
+}
+
+fieldset{
+    border: 1px solid #000;
+    width: 691px;
+    height: 390px;
+    background: #F2F2F2;
+}
+
+.form-control{
+    width: 289px;
+    height: 42px;
+    margin-left: 38px;
+    margin: 0 0 15px 38px;
+}
